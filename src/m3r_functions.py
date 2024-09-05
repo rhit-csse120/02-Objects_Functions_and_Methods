@@ -24,7 +24,7 @@ Academic Integrity: I got help on this module from:
 
 def main():
     hello("Snow White")
-    goodbye('Bashful')
+    goodbye("Bashful")
     hello("Grumpy")
     hello("Sleepy")
     hello_and_goodbye("Magic Mirror", "Cruel Queen")
@@ -36,8 +36,8 @@ def hello(friend):
 
 def goodbye(friend):
     print("Goodbye,", friend, "- see you later!")
-    print('   Ciao!')
-    print('   Bai bai!')
+    print("   Ciao!")
+    print("   Bai bai!")
 
 
 def hello_and_goodbye(person1, person2):

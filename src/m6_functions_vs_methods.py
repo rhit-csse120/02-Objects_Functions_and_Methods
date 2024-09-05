@@ -43,7 +43,7 @@ def main():
 
 
 def run_example():
-    """ An example of CALLING functions defined below. """
+    """An example of CALLING functions defined below."""
     jump_and_move_turtle(100, 50, 200, -100)
 
     turtle = rg.SimpleTurtle("square")
@@ -102,6 +102,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
     for _ in range(number_of_squares):
         my_turtle.draw_square(size)
         my_turtle.left(twist)
+
 
 ###############################################################################
 # TODO: 3.

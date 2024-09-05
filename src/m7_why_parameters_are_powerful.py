@@ -181,7 +181,7 @@ def better_draw_circles(point):
 #   correct and does indeed use its parameters per their descriptions above.
 ###############################################################################
 def even_better_draw_circles(point):
-    """ An improved version of draw_circles, per the _TODO_ above. """
+    """An improved version of draw_circles, per the _TODO_ above."""
     # READ the above _TODO_ and then copy-paste code from better_circles here:
 
 

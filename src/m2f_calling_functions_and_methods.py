@@ -71,6 +71,7 @@ Academic Integrity: I got help on this module from:
 #   because of the randomness.
 ###############################################################################
 
+
 ###############################################################################
 # TODO: 6.  [Do this when the video says to do so.]
 #   The code below defines a function that returns the temperature
