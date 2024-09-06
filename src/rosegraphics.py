@@ -48,7 +48,6 @@ from tkinter import font as tkinter_font
 import time
 import turtle
 
-
 # ----------------------------------------------------------------------
 # All the windows that are constructed during a run share the single
 #    _master_Tk   (a tkinter.Tk object)
@@ -84,13 +83,13 @@ class RoseWindow:
     """
 
     def __init__(
-            self,
-            width=400,
-            height=300,
-            title="Rose Graphics",
-            color="black",
-            canvas_color=None,
-            make_initial_canvas=True,
+        self,
+        width=400,
+        height=300,
+        title="Rose Graphics",
+        color="black",
+        canvas_color=None,
+        make_initial_canvas=True,
     ):
         """
 
@@ -215,12 +214,12 @@ class RoseWindow:
         return click_position
 
     def continue_on_mouse_click(
-            self,
-            message="To continue, click anywhere in this window",
-            x_position=None,
-            y_position=None,
-            close_it=False,
-            erase_it=True,
+        self,
+        message="To continue, click anywhere in this window",
+        x_position=None,
+        y_position=None,
+        close_it=False,
+        erase_it=True,
     ):
         """
         Displays a message at the bottom center of the window
@@ -1636,13 +1635,13 @@ class Color:
 class _RoseWindowStub(RoseWindow):
 
     def __init__(
-            self,
-            width=400,
-            height=300,
-            title="Rose Graphics",
-            color="black",
-            canvas_color=None,
-            make_initial_canvas=True,
+        self,
+        width=400,
+        height=300,
+        title="Rose Graphics",
+        color="black",
+        canvas_color=None,
+        make_initial_canvas=True,
     ):
         canvas_color = "white"  # FIXME
         self._is_closed = False
@@ -1660,12 +1659,12 @@ class _RoseWindowStub(RoseWindow):
         return None
 
     def continue_on_mouse_click(
-            self,
-            message=("To continue, " + "click anywhere in this window"),
-            x_position=None,
-            y_position=None,
-            close_it=False,
-            erase_it=True,
+        self,
+        message=("To continue, " + "click anywhere in this window"),
+        x_position=None,
+        y_position=None,
+        close_it=False,
+        erase_it=True,
     ):
         return None
 
@@ -2115,6 +2114,7 @@ def _serialize_shapes(self):
             result[-1].append(str(key) + ":" + str(shape[key]))
         result[-1] = str(result[-1])
     return "\n".join(sorted(result))
+
 
 # FIXME (errors):
 #  -- clone() does not really make a copy; it just makes a new one
