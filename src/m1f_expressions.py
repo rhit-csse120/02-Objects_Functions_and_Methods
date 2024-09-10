@@ -392,3 +392,23 @@ import math
 # x = random.randint(1, 99)
 # y = random.randint(1, 99)
 # print(x, y)
+
+###############################################################################
+# TODO: 22.
+#   As always, ensure that no blue bars on the scrollbar-thing to the right
+#   remain.  If needed, run one more time to be sure that all is still OK.
+#  _
+#   Then COMMIT-and-PUSH your work as before:
+#     1. Select    Git     from the menu bar (above).
+#          Or, right-click on the project in the Project window
+#          and select   Git  from the pull-down menu that appears.
+#     2. Choose   Commit...   from the pull-down menu that appears.
+#     3. In the   "Commit and Push"   sub-window that pops up
+#        (the one in which you can type),
+#        press the   "Commit and Push..."   button.
+#            Note: If it asks you to "Specify commit message", do so
+#                  using   Done   or something like that for the message.
+#  _
+#   You can COMMIT-and-PUSH as often as you like.
+#   DO IT FREQUENTLY; AT LEAST once per module.
+###############################################################################

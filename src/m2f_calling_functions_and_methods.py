@@ -90,6 +90,7 @@ def get_celsius(temperature_in_fahrenheit):
     """
     return (temperature_in_fahrenheit - 32) * (5 / 9)
 
+
 ###############################################################################
 # Part 2: Calling METHODS.
 ###############################################################################
@@ -119,4 +120,6 @@ def get_celsius(temperature_in_fahrenheit):
 #  _
 #   After you do the last of the above, hover over the
 #   method name   get_next_mouse_click   to see its Quick Documentation.
+#  _
+#   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
