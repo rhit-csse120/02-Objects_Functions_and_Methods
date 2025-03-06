@@ -83,8 +83,9 @@ Academic Integrity: I got help on this module from:
 def get_celsius(temperature_in_fahrenheit):
     """
     Returns the temperature in Celsius of the given Fahrenheit temperature.
-    For example, this function returns   XXX   when given   YYY.
-
+    For example, this function returns:
+      - 0    when given   32
+      - 100  when given  212
     Type hints:
       :type temperature_in_fahrenheit: float
     """
