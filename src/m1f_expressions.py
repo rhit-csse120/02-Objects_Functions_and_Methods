@@ -76,7 +76,7 @@ import math
 # print("10 ** 2  evaluates to:", 10 ** 2)
 # print("2 ** 0.5  evaluates to:", 2 ** 0.5)
 # print("10 ** -2  evaluates to:", 10 ** -2)
-# print("10 ** -0.5  evaluates to:", 10 ** -0.5, "(do you see why?")
+# print("10 ** -0.5  evaluates to:", 10 ** -0.5, "(do you see why?)")
 
 ###############################################################################
 # TODO: 6.  [Do this when the video says to do so.]
@@ -136,8 +136,7 @@ import math
 #   paying close attention to what gets printed, especially the last red line.
 #   Again note that the error-output (in red) may PRECEDE ordinary output.
 #  _
-#   Then comment-out the first line that causes the run-time error
-#   and run the program again to see the result of running the line below it.
+#   Then comment-out the line that causes the run-time error.
 ###############################################################################
 
 # print()
@@ -270,7 +269,7 @@ import math
 #   and run again to check your predictions.
 #  _
 #   Finally, practice assignment as suggested by the examples below, that is:
-#   choose your own names, given them values by using the assignment (=)
+#   choose your own names, giving them values by using the assignment (=)
 #   operator, and define new names by using expressions that include names
 #   that you defined previously.
 ###############################################################################
