@@ -21,7 +21,7 @@ import math
 ###############################################################################
 # TODO: 2.
 #   Do this module while you watch the Session 2 Preparation video for
-#       m1_expressions
+#       m1f_expressions
 #   Do the exercises in this module when the video says to do so.
 #  _
 #   After you have read and understood the above instructions,

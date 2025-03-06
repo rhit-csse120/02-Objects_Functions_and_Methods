@@ -17,7 +17,7 @@ Academic Integrity: I got help on this module from:
 ###############################################################################
 # TODO: 2.
 #   Do this module while you watch the Session 2 Preparation video for
-#       m2_calling_functions_and_methods
+#       m2f_calling_functions_and_methods
 #   Do the exercises in this module when the video says to do so.
 #  _
 #   After you have read and understood the above instructions,

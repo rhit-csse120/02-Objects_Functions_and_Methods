@@ -86,7 +86,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
 
     NOTE: The 3 lines below that begin with   :type   are called
     "type hints".  They make the "dot" trick work more effectively.
-    We will include them in function specifications routinely.
+    We will routinely include them in function specifications.
       :type  my_turtle:          rg.SimpleTurtle
       :type  number_of_squares:  int
       :type  size:               int
