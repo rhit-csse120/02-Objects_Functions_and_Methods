@@ -84,7 +84,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
     and each square is:
       -- "twisted" a bit from the previous one (how much? TWIST degrees)
 
-    NOTE: The 3 lines below that begin with   :type   are called
+    NOTE: The 4 lines below that begin with   :type   are called
     "type hints".  They make the "dot" trick work more effectively.
     We will routinely include them in function specifications.
       :type  my_turtle:          rg.SimpleTurtle
@@ -210,6 +210,9 @@ def try_methods_and_functions():
     #   NOTE: This function should ** CALL ** the
     #     draw_many_squares
     #   function defined above.  If you don't see why, ** ASK FOR HELP. **
+    #  _
+    #   Implement this function is STAGES -- implement AND TEST each step
+    #   before proceeding to the implementation of the next step.
     ###########################################################################
 
 
