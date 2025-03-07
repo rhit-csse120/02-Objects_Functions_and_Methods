@@ -42,6 +42,9 @@ def main():
 # TODO: 2b.  In main, CALL your function TWICE (with different values
 #   for the arguments) and print the returned values,
 #   to test whether you defined the function correctly.
+#  _
+#  After completing the above, get someone to check your answer.
+#  Choose someone who has already had THEIR answer checked.
 ###############################################################################
 
 
@@ -69,6 +72,9 @@ def main():
 #
 # TODO: 3b.  In main, CALL your function at least TWICE (with different values
 #   for the arguments) to test whether you defined the function correctly.
+#  _
+#  After completing the above, get someone to check your answer.
+#  Choose someone who has already had THEIR answer checked.
 ###############################################################################
 
 ###############################################################################
