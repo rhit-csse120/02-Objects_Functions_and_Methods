@@ -163,8 +163,8 @@ def better_draw_circles(point):
 #     -- The center of the concentric circles (as it started with)
 #     -- The amount by which the radii vary (as you did above)
 #     -- The number of concentric circles drawn
-#     -- The pen color of the concentric circles
-#     -- The pen thickness of each of the concentric circles
+#     -- The pen color to use for the concentric circles
+#     -- The pen thickness to use for the concentric circles
 #  _
 #   Hence, this   even_better_draw_circles   function will be
 #   even more POWERFUL than the previous functions,
