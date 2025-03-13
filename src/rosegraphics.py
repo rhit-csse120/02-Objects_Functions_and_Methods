@@ -114,7 +114,7 @@ class RoseWindow:
           :type height: int
           :type title: str
           :type color: Color | str
-          :type canvas_color: Color
+          :type canvas_color: Color | str
           :type make_initial_canvas: bool
         """
         #         check_types([(width, (int, float)),
@@ -329,6 +329,7 @@ class RoseCanvas(RoseWidget):
         super().__init__(window)
 
         RoseCanvas.count = RoseCanvas.count + 1
+        background_color = "white"
 
         # FIXME: Deal with default background colors.
         # FIXME: Store background color as a property
