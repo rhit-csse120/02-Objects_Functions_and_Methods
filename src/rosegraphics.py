@@ -1616,17 +1616,27 @@ class Color:
     - the GREEN component (0-255),
     - the BLUE component (0-255).
 
-    This Color can be passed to RoseGraphics colors
-    such as fill_color and outline_color.
+    Or, there can be a single argument that is a string that
+    Tkinter/TCL recognizes as a color.
+
+    This Color is converted to a form that can be passed
+    to RoseGraphics colors such as fill_color and outline_color.
     """
 
     def __init__(self, red, green=None, blue=None):
         self.red = red
         self.green = green
         self.blue = blue
+        if type(red) is str:
+            self.color = red
+        else:
+            self.color = self.to_tuple()
 
     def __repr__(self):
         return "#{:02x}{:02x}{:02x}".format(self.red, self.green, self.blue)
+
+    def to_tuple(self):
+        return (self.red / 255, self.green / 255, self.blue / 255)
 
 
 # begin STUB code for testing
@@ -2031,7 +2041,7 @@ class Pen:
 
     To construct a Pen, use:
        rg.Pen(color, thickness)
-    where  color   is a color (e.g. "red")
+    where  color   is a color (e.g. "red" or (255, 0, 0))
     and   thickness  is a small positive integer.
 
     Instance variables are:
@@ -2045,7 +2055,10 @@ class Pen:
 
     def __init__(self, color, thickness):
         self.thickness = thickness
-        self.color = color
+        if type(color) is Color:
+            self.color = color.to_tuple()
+        else:
+            self.color = color
 
 
 class PaintBucket:
