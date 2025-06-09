@@ -91,5 +91,7 @@ alan.pen = rg.Pen('blue', 30)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
+# This unusual form is necessary for the special testing we sometimes provide.
 # -----------------------------------------------------------------------------
-main()
+if __name__ == "__main__":
+    main()

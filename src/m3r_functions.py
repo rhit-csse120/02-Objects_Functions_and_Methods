@@ -45,4 +45,9 @@ def hello_and_goodbye(person1, person2):
     goodbye(person2)
 
 
-main()
+# -----------------------------------------------------------------------------
+# Calls  main  to start the ball rolling.
+# This unusual form is necessary for the special testing we sometimes provide.
+# -----------------------------------------------------------------------------
+if __name__ == "__main__":
+    main()
